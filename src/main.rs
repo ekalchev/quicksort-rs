@@ -5,7 +5,7 @@ fn main() {
 }
 
 pub fn sort_array(array: &mut [i32], start_index: usize, end_index: usize) {
-    let pivot = array[start_index];
+    let pivot = array[end_index / 2];
     let mut i = start_index;
     let mut j = end_index;
 
